@@ -608,9 +608,10 @@
         }
 
         .social-media-list li a {
-            color: #fff;
+           color: #fff;
+           z-index: 2;
+           position: relative;
         }
-
         .social-media-list li {
             position: relative;
             display: inline-block;
