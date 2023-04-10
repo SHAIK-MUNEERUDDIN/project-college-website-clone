@@ -1,0 +1,5 @@
+{
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "version-2.0"
+    ]
+}
