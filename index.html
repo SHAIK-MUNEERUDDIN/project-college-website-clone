@@ -6,52 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MRITS | Mallareddy Institute Of Technology And Science</title>
-    <link rel="icon" type="image/x-icon" href="IMAGES/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/assets/IMAGES/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="Style.css">
-
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+    <script src="assets/JS/jquerry.js"></script>
+    <link rel="stylesheet" href="/assets/CSS/Nav.css">
+    <link rel="stylesheet" href="/assets/CSS/home.css">
+    <link rel="stylesheet" href="/assets/CSS/Footer.css">
+    <link rel="stylesheet" href="/assets/CSS/Responsive.css">
+    <script src="/assets/JS/main.js"></script>
+    <script>
+        $(function () {
+            $("#footer-placeholder").load("Footer.html");
+        });
+    </script>
 </head>
 
 <body>
-    <div id="home" class="logo">
-        <img src="IMAGES/logo.jpg" alt="mrits logo">
-    </div>
-    <header id="navbar">
-        <section id="navi-menu">
-            <a href="#" id="logo" href="Index.html" target="_blank">MRITS RESULTS</a>
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
 
-            <label for="toggle-1" class="toggle-menu">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </label>
-            <input type="checkbox" id="toggle-1">
-
-            <nav>
-                <ul>
-                    <li><a onclick="clickSingleA(this )" class="single active" href="#home"><i class="fa fa-home fa-fw"
-                                aria-hidden="true"></i>Home</a></li>
-                    <li><a onclick="clickSingleA(this )" class="single" href="#About"><i class="fa fa-user"
-                                aria-hidden="true"></i>About</a></li>
-                    <li><a onclick="clickSingleA(this )" class="single" href="Gallery.html"><i class="fa fa-picture-o"
-                                aria-hidden="true"></i>Gallery</a></li>
-                    <li><a onclick="clickSingleA(this )" class="single" href="#"><i class="fa fa-cog"
-                                aria-hidden="true"></i>Services</a></li>
-                    <li><a onclick="clickSingleA(this )" class="single" href="#contact-us"><i class="fa fa-phone"
-                                aria-hidden="true"></i>Contact</a></li>
-                    <!-- <li><a href="#portfolio"><i class="icon-thumbs-up-alt"></i>Portfolio</a></li> -->
-                    <li><input type="text" name="search" id="search" placeholder="Search this website"></li>
-                </ul>
-            </nav>
-        </section>
-    </header>
-    <div>
-        <marquee class="ftext">!!Attention Required!! Please note this is not the official website of MRITS
-            please visit
-            www.mrits.ac.in for the official website &#128512;</marquee>
     </div>
+
+
     <!-- welcome section begins here -->
     <div id="content-1">
         <div id="space1">
@@ -74,108 +51,8 @@
             <p style="margin-top:2%">TECHNOLOGIES USED: HTML5,CSS3 & Javascript</p>
         </div>
     </div>
-    <!-- table begins from here -->
+    <!-- welcome section ends here -->
 
-    <div class="container">
-        <div id="invisible"><img class="bgimage" src="IMAGES/clg.jpg" alt="image here"></div>
-
-
-        <form class="item">
-            <div class="opt" id="opt1">
-                <label for="branch">Branch:</label>
-                <select name="branch" required>
-                    <option value="">Select</option>
-                    <option value="cse" selected>CSE</option>
-                    <option value="eee" disabled>EEE</option>
-                    <option value="ece" disabled>ECE</option>
-                    <option value="civil" disabled>CIVIL</option>
-                </select>
-            </div>
-            <div class="opt" id="opt2">
-                <label for="YEAR">Year:</label>
-                <select name="year" required>
-                    <option value="">Select</option>
-                    <option value="I year" disabled>I Year</option>
-                    <option value="II year" disabled>II Year</option>
-                    <option value="III year">III Year</option>
-                    <option value="IV year" disabled>IV Year</option>
-                </select>
-            </div>
-            <div class="opt" id="opt3">
-                <label for="SECTION">Section:</label>
-                <select name="Section" required>
-                    <option value="">Select</option>
-                    <option value="section-a" disabled>CSE-A</option>
-                    <option value="section-b" disabled>CSE-B</option>
-                    <option value="section-c">CSE-C</option>
-                    <option value="it" disabled>IT</option>
-                    <option value="cse(ds)" disabled>CSE(DS)</option>
-                    <option value="cse(aiml)" disabled>CSE(AIML)</option>
-                    <option value="cse(cs)" disabled>CSE(CS)</option>
-                    <option value="cse(iot)" disabled>CSE(IOT)</option>
-                    <option value="cse(nw)" disabled>CSE(NW)</option>
-
-                </select>
-            </div>
-            <div class="opt" id="opt4">
-                <label for="roll number">Enter HallTicket No:</label>
-                <input type="text" name="Roll number" placeholder="21S15A0512" required>
-            </div>
-            <button id=submitbtn type="submit">Submit</button>
-        </form>
-    </div>
-    <!-- about section begins here -->
-    <div id="About"></div>
-    <div id="content-2">
-        <h1 class="heading">ABOUT US</h1>
-        <P>Malla Reddy Institute of Technology and Science (MRITS) has been established in the year 2005 under the
-            dynamic leadership of Shri Ch. Malla Reddy garu . The institution is sponsored by Malla Reddy Educational
-            Society. Shri Ch. Malla Reddy garu, our founder Chairman has been in the field of education industry for the
-            last 25 years with an intention of spreading quality education among children at the school level. He
-            established his first technical college in the year 2002 and over a span of 7 years he established more than
-            10 professional colleges. He won as Honorable Member of Parliament (MP) for Malkajgiri Constituency which is
-            in the jurisdiction of Hyderabad, Telangana State in the year 2014.
-        </p>
-        <div id="content-3">
-            <div class="vision">
-                <h3>VISION</h3>
-                <p>
-                    &bull;To prepare students to pursue the discovery of new knowledge. We recognize that academic
-                    inquiry
-                    fuels
-                    creative scholarship, which fuels the intellectual atmosphere of the classroom and the learning
-                    process.
-                </p>
-                <p> &bull;To Value the ability to educate the whole person and mend our students to learn the value of
-                    responsibility,
-                    self-discipline, community service, and understanding of others.
-                </p>
-                <p>&bull;To set the goals which will the rise the glory of our institution on to the highest peak of
-                    visualization.</p>
-            </div>
-            <div class="mission">
-                <h3>MISSION</h3>
-                <p>
-                    &bull;To establish an intellectual innovative capital by involving individuals, industries and
-                    academic.
-                </p>
-                <p>
-                    &bull;To emerge as a new competitive quality standard with the capacity to deliver world-class
-                    quality
-                    in
-                    our core
-                    strategic function.
-                </P>
-                <P>
-                    &bull;A presumption in our mission is that quality will ultimately be the sustaining measure of
-                    success...
-
-                </p>
-            </div>
-        </div>
-
-
-    </div>
     <!-- about mrits begins here -->
     <div id="aboutmrits">
         <div class="smallcontainer">
@@ -237,6 +114,9 @@
 
         </div>
     </div>
+    <!-- about mrits ends here -->
+
+
     <!-- mini gallery section begins here -->
     <div class="minigallery">
         <h1 class="heading">GALLERY</h1>
@@ -301,120 +181,42 @@
         </div>
     </div>
     <!-- mini gallery section ends here -->
+
+
     <!-- placement partners secton begims here -->
     <section id="client-section">
         <h1 class="heading">OUR PLACEMENT PARTNERS</h1>
         <div id="clients">
             <div class="client-item">
-                <img src="IMAGES/wipro.png" alt="Wipro">
+                <img src="/assets/IMAGES/wipro.png" alt="Wipro">
             </div>
             <div class="client-item">
-                <img src="IMAGES/tcs.png" alt="Tata consultancy services">
+                <img src="/assets/IMAGES/tcs.png" alt="Tata consultancy services">
             </div>
 
             <div class="client-item">
-                <img src="IMAGES/infosys.png" alt="Infosys">
+                <img src="/assets/IMAGES/infosys.png" alt="Infosys">
             </div>
             <div class="client-item">
-                <img src="IMAGES/ibm.png" alt="IBM">
+                <img src="/assets/IMAGES/ibm.png" alt="IBM">
             </div>
             <div class="client-item">
-                <img src="IMAGES/accenture.png" alt="Accenture">
+                <img src="/assets/IMAGES/accenture.png" alt="Accenture">
             </div>
             <div class="client-item">
-                <img src="IMAGES/amazon.png" alt="Amazon">
+                <img src="/assets/IMAGES/amazon.png" alt="Amazon">
             </div>
         </div>
 
     </section>
     <!-- placement partners secton ends here -->
 
-    <!-- contact us secton begims here -->
-    <section id="contact-us">
-        <h1 class="heading">CONTACT US</h1>
-        <div id="contact-container">
-            <div id="contact-info">
-
-                <div class="card-header">
-                    <p id="ci-hf">
-                        Contact Details
-                    </p>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <div>
-
-                            <p class="ci-hf-2">
-                                MRITS
-                            </p>
-                            <hr>
-                            <p class="ci-pf">Maisammaguda, Dhulapally,
-                                Medchal (M),</p>
-                            <p class="ci-pf">Secunderabad-500100.</p>
-                            <p class="ci-pf">Ph: +91 7995222300, +91
-                                7207034238</p>
-                            <p class="ci-pf">Email:
-                                <br>mrits_pril@yahoo.co.in , <br>mrits.s1@gmail.com, <br>info@mrits.ac.in.
-                            </p>
-                        </div>
-                        <div>
-                            <p class="ci-hf-2">
-                                Office
-                                Details</p>
-                            <hr>
-                            <p class="ci-pf">Admissions Ph : +91
-                                7995222300, +91 7207034238</p>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div id="contact-form">
-                <h3 class="form-heading">Write To Us</h3>
-
-                <form class="form-horizontal" role="form">
-
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value=""
-                                required>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email"
-                                value="" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <input type="text" class="form-control" id="subject" placeholder="SUBJECT" name="subject"
-                                value="" required>
-                        </div>
-                    </div>
-
-
-                    <textarea class="form-control" rows="7" placeholder="MESSAGE" name="message" required></textarea>
-
-                    <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
-                        <div class="alt-send-button">
-                            <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
-                        </div>
-
-                    </button>
-
-                </form>
-
-            </div>
-        </div>
-    </section>
+    <!-- developer credit section begins here -->
     <div class="devcontainer">
         <div class="developers">
             <h1 class="heading3">DEVELOPED BY</h1>
             <div class="dev1 devres">
-                <div class="dev-image"><img src="IMAGES/dev-1.jpg " alt=""></div>
+                <div class="dev-image"><img src="/assets/IMAGES/dev-1.jpg " alt=""></div>
                 <div class="captiondev">
                     <h3>SK MUNEERUDDIN</h3>
                     <!-- <p>21S15A0512</p> -->
@@ -437,170 +239,18 @@
                     </li>
                 </ul>
             </div>
-            <!-- <div class="dev2 devres">
-                <div class="dev-image"><img src="IMAGES/student.jpg" alt=""></div>
-                <div class="captiondev">
-                    <h3>VINOD KUMAR</h3>
-                    <P>III YEAR CSE-C (21S15A0518)</p>
-                </div>
-                <ul class="social-media-list">
-                    <li><a href="#" target="_blank" class="contact-icon">
-                            <i class="fa fa-github" aria-hidden="true"></i></a>
-                    </li>
-                    <li id="linkedin"><a href="#" target="_blank" class="contact-icon">
-                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li id="twitter"><a href="#" target="_blank" class="contact-icon">
-                            <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li id="instagram"><a href="#" target="_blank" class="contact-icon">
-                            <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
-            </div> -->
         </div>
 
     </div>
-    <footer>
-        <div id="footer-box">
-            <div class="col-det">
-                <div class="col-det-box">
-                    <div class="footer-logo">
-                        <img id="footer-logo" data-class="img-center" src="IMAGES/MRITS_footer.jpg" alt=""
-                            style="width:230px;height:50px">
-                    </div>
-                    <p style="font-size:14px;color:white">Maisammaguda, Dhulapally, Medchal, Secunderabad
-                        Telangana, INDIA</p>
-                    <p style="font-size:14px;color:#d8981f;margin-top:-10px">Phone No:</p>
-                    <p style="font-size:14px;color:white;margin-top:-10px">7995222300, 7207034238</p>
-                    <p style="font-size:14px;color:white;margin-top:-10px"><span style="color:#d8981f">Email:</span>
-                        mrits_pril@yahoo.co.in,
-                        mrits.s1@gmail.com, info@mrits.ac.in</p>
-                    <p style="font-size:14px;color:white;margin-top:-10px"><span style="color:#d8981f">Website:</span>
-                        <a href="http://mrits.ac.in" target="_blank" rel="noreferrer noopener">http://mrits.ac.in/</a>
-                    </p>
+    <!-- developer credit section ends here -->
 
 
-                </div>
 
-            </div>
+    <!--Footer section here-->
+    <footer id="footer-placeholder">
 
-            <div class="u-links">
-                <div class="ul-header" style="background-color:#131d3b">
-                    <p style="color:white;font-size:22px;text-align:center;margin-top:20px">Useful Links
-                    </p>
-                </div>
-                <ul class="ul-lists">
-                    <li><a href="http://www.mrits.ac.in" target="_blank" rel="noreferrer noopener">MRITS Website</a>
-                    </li>
-                    <li><a href="http://www.mrits.ac.in/course_intake.php" target="_blank"
-                            rel="noreferrer noopener">Admission</a> </li>
-                    <li> <a href="http://www.mrits.ac.in/admin_staff.php" target="_blank"
-                            rel="noreferrer noopener">Admin Staff</a> </li>
-                    <li> <a href="/Downloads/MRITS_Leaflet.pdf" target="_blank" rel="noreferrer noopener">Brochures</a>
-                    </li>
-                    <li>Media</li>
-                </ul>
-                <ul class="footer-media">
-                    <li id="youtube"><a href="https://www.youtube.com/channel/UCWGufDAna48x29Mi41U744Q" target="_blank"
-                            rel="noreferrer noopener" class="contact-icon">
-                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                            </i></a>
-                    </li>
-                    <li id="facebook"><a href="https://www.facebook.com/mrits.s1/" target="_blank"
-                            rel="norefferer noopener" target="_blank" class="contact-icon">
-                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li id="twitter"><a href="#" target="_blank" class="contact-icon">
-                            <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li id="instagram"><a href="#" target="_blank" class="contact-icon">
-                            <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
-
-            </div>
-
-
-            <div class="map">
-                <div class="map-header" style="background-color:#131d3b">
-                    <p style="color:white;font-size:25px;text-align:center;margin-top:20px">Location
-                    </p>
-                </div>
-                <div class="map-body">
-                    <iframe style="border:0;"
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15215.565117478518!2d78.45813229999999!3d17.5603622!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x7880f38e06281fa5!2sMalla+Reddy+Institute+of+Technology+and+Science!5e0!3m2!1sen!2sin!4v1466675331237"
-                        allowfullscreen="" width="300" height="250" frameborder="0">
-                    </iframe>
-                </div>
-            </div>
-        </div>
-        <div class="endcredits">
-            <div class="ec-left">
-                <P style="font-size: 14px; left: 0%;"><i>All rights reserved by</i> MRITS | &copy; 2022</P>
-            </div>
-            <div class="ec-right">
-                <p style="font-size: 13px; right: 2%;"><i> Developed By</i> SK MUNEERUDDIN</p>
-            </div>
-        </div>
     </footer>
 </body>
-<script>
-    window.onscroll = function () { myFunction() };
 
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-
-    /* Function to stick the nav bar */
-    function myFunction() {
-        if (window.pageYOffset > sticky) {
-            navbar.classList.add("sticky")
-        }
-        else {
-            navbar.classList.remove("sticky");
-        }
-    }
-</script>
-
-<!-- active page indication script -->
-<script>
-    function clickSingleA(a) {
-        items = document.querySelectorAll('.single.active');
-
-        if (items.length) {
-            items[0].className = 'single';
-        }
-
-        a.className = 'single active';
-    }
-</script>
-
-
-<!-- java script of about mrits persons slide show -->
-<script>
-    let slideIndex = 0;
-    showSlides();
-
-    function showSlides() {
-        let i;
-        let slides = document.getElementsByClassName("slide");
-        let dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) { slideIndex = 1 }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-        setTimeout(showSlides, 3000); // Change image every 2 seconds
-    }
-</script>
-
-</body>
 
 </html>

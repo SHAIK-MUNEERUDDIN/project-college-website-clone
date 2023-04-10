@@ -1,0 +1,217 @@
+      /* styling of navigation menu starts here */
+
+      * {
+          margin: 0px;
+          padding: 0px;
+          outline: none;
+      }
+
+      .logo img {
+          width: 100%;
+          height: auto;
+          display: block;
+
+      }
+
+      body {
+          margin: 0px;
+          padding: 0px;
+          background-color: rgb(241, 225, 225);
+      }
+
+      #navi-menu {
+          width: 100%;
+          max-width: 1200px;
+          margin: 0px auto;
+          display: table;
+          position: relative;
+      }
+
+      #navi-menu a {
+          text-decoration: none;
+      }
+
+      header {
+          width: 100%;
+          display: table;
+          background-color: #1A1B37;
+          z-index: 4;
+      }
+
+      #logo {
+          float: left;
+          font-size: 24px;
+          text-transform: uppercase;
+          color: #fcfcfc;
+          font-weight: 600;
+          padding: 20px 0px;
+          font-family: 'Open Sans', sans-serif;
+      }
+
+      .sticky {
+          position: fixed;
+          top: 0;
+          width: 100%;
+      }
+
+      .invisible {
+          display: none;
+      }
+
+      nav {
+          width: auto;
+          float: right;
+          font-family: 'Open Sans', sans-serif;
+      }
+
+      nav ul {
+          display: table;
+          float: right;
+      }
+
+      nav ul li {
+          float: left;
+          list-style: none;
+      }
+
+      nav ul li:last-child {
+          padding-right: 0px;
+      }
+
+      nav ul li a {
+          color: hsl(0, 0%, 100%);
+          font-size: 18px;
+          padding: 25px 20px;
+          display: inline-block;
+          transition: all 0.5s ease 0s;
+          text-decoration: none;
+      }
+
+      nav ul li a:hover {
+          color: rgb(255, 81, 0);
+          /* background-color: rgb(10, 173, 238); */
+          transition: all 0.5s ease 0s;
+      }
+
+      nav ul li a.active {
+          background-color: rgb(255, 81, 0);
+          color: #fde428;
+      }
+
+      nav ul li a:hover i {
+          color: rgb(255, 81, 0);
+          transition: all 0.5s ease 0s;
+      }
+
+      nav ul li a i {
+          padding-right: 10px;
+          color: #1A1B37 002e5b;
+          transition: all 0.5s ease 0s;
+      }
+
+
+      .toggle-menu ul {
+          display: table;
+          width: 25px;
+          list-style: none;
+      }
+
+      /* .active {
+          background-color: rgb(255, 81, 0);
+          color: #fde428;
+          transition: all 0.5s ease 0s;
+      } */
+
+      .toggle-menu ul li {
+          width: 100%;
+          height: 3px;
+          background-color: #ffffff;
+          margin-bottom: 4px;
+      }
+
+      .toggle-menu ul li:last-child {
+          margin-bottom: 0px;
+      }
+
+      input[type=checkbox],
+      section label {
+          display: none;
+      }
+
+      #search {
+          padding: 2px;
+          margin-top: 23px;
+          margin-bottom: 7px;
+      }
+
+      nav li input {
+          border: 2px solid orange;
+          border-radius: 11px;
+      }
+
+      /* end of navigation menu here */
+
+      /*floating text styling begins here*/
+      .ftext {
+          color: blue;
+          border: 2px solid black;
+          display: block;
+          border-radius: 5px;
+          background-color: gold;
+          margin: 1px;
+      }
+
+      .ftext {
+          font-family: 'Alkalami', serif;
+      }
+
+      /*floating text styling ends*/
+
+      /* styling for dropdown menu */
+      .dropdown {
+          position: relative;
+          display: inline-block;
+      }
+
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #20224f;
+          min-width: 182px;
+
+          z-index: 1;
+
+      }
+
+      .dropdown:hover .dropdown-content {
+          display: block;
+      }
+
+      .dropdown-content a {
+          color: black;
+          /* padding: 12px 16px; */
+          text-decoration: none;
+          display: block;
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      }
+
+      /* .dropdown-content a:hover {
+          background-color: white;
+      } */
+
+      .dropdown-content a {
+          color: white;
+          border-bottom: 1px solid rgba(225, 225, 225, 0.1);
+      }
+
+
+      .drop-arrow {
+          padding-left: 7px;
+      }
+
+
+
+      .dropdown a {
+          padding: 25px 20px;
+
+      }

@@ -1,0 +1,53 @@
+        /* setting nav menu active for the current page */
+        #About {
+            background-color: rgb(255, 81, 0);
+            color: #fde428;
+            transition: all 0.5s ease 0s;
+        }
+
+        /* about us styling begins here */
+
+        #content-2 {
+            position: relative;
+            display: table;
+            border: 2px solid #ff4f01;
+            padding: 6%;
+            margin: 3%;
+            border-radius: 24px;
+            color: #131d3b;
+            background-color: #e8e0e0;
+        }
+
+        .vision {
+            border: 2px solid #fde428;
+            border-radius: 30px;
+            padding: 14px;
+            margin-top: 15px;
+            box-shadow: 10px 10px 10px 10px slategray;
+        }
+
+        .vision h3 {
+            /* font-family: 'Alkalami', serif; */
+            background-color: #ff4f01;
+            padding-left: 38%;
+            padding-top: 1%;
+            margin-bottom: 9%;
+
+        }
+
+        .mission {
+            border: 2px solid #fde428;
+            border-radius: 30px;
+            padding: 14px;
+            margin-top: 15px;
+            box-shadow: 10px 10px 10px 10px slategray;
+        }
+
+        .mission h3 {
+            /* font-family: 'Alkalami', serif; */
+            background-color: #ff4f01;
+            padding-left: 38%;
+            padding-top: 1%;
+            margin-bottom: 9%;
+
+        }

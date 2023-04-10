@@ -1,0 +1,276 @@
+/* setting nav menu active for the current page */
+#Contact {
+    background-color: rgb(255, 81, 0);
+    color: #fde428;
+    transition: all 0.5s ease 0s;
+}
+
+/* styling of contact us page begins here */
+
+#contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 520px;
+    margin: 5%;
+    margin-bottom: 0%;
+    background-color: rgb(241, 225, 225);
+}
+
+#contact-info {
+    background-color: #1A1B37;
+    color: white;
+    width: 40%;
+    height: 500px;
+}
+
+.ci-pf {
+    font-size: 15px;
+    margin-left: 5%;
+    font-family: sans-serif;
+    padding: 2%;
+}
+
+.card-header {
+    color: rgb(255, 81, 0);
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 9%;
+    font-family: sans-serif;
+}
+
+.ci-hf-2 {
+    font-weight: 600;
+    color: #fde428;
+    font-size: 20px;
+    margin-top: 6%;
+    margin-left: 3%;
+    font-family: sans-serif;
+    padding: 2%;
+}
+
+#contact-form {
+    border: 2px solid #1A1B37;
+    width: 59%;
+    height: 492px;
+    padding: 2px;
+    background-image: url(/assets/IMAGES/chat.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* right contact form */
+.form-horizontal {
+    /*float: left;*/
+    max-width: 400px;
+    font-family: 'Lato';
+    font-weight: 400;
+    margin-left: 21%;
+}
+
+.form-control,
+textarea {
+    width: 394px;
+    background-color: #cae4e6;
+    color: #1A1B37;
+    letter-spacing: 1px;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+.send-button {
+    margin-top: 15px;
+    margin-left: 3%;
+    height: 34px;
+    width: 400px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.alt-send-button {
+    width: 400px;
+    height: 34px;
+    transition: all .2s ease-in-out;
+}
+
+.send-text {
+    display: block;
+    margin-top: 20px;
+    font: 700 13px 'Lato', sans-serif;
+    letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+    transform: translate3d(0px, -29px, 0px);
+}
+
+.form-heading {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    font: 300 25px 'Oswald', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #1A1B37;
+    font-weight: 600;
+
+}
+
+/* contact us section ends here */
+
+
+
+
+/* developer info section begins here */
+.developers {
+    border: 2px solid #ff4f01;
+    height: 640px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 24px;
+    background-image: url("/assets/IMAGES/devbg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-evenly;
+    background-color: rgb(161, 224, 224);
+}
+
+.dev1 {
+    width: 340px;
+    height: 415px;
+    margin-top: 15%;
+    background-color: #1A1B37;
+    box-shadow: 10px 10px 10px 10px slategray;
+}
+
+/* .dev2 {
+            width: 340px;
+            height: 415px;
+            margin-top: 15%;
+            background-color: #1A1B37;
+            box-shadow: 10px 10px 10px 10px slategray;
+        } */
+
+.captiondev {
+    width: 100%;
+    margin-top: 90%;
+    height: 48px;
+    background-color: #ff4f01;
+    color: white;
+    font-family: 'Amaranth', sans-serif;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.devcontainer {
+    padding: 3%;
+}
+
+.dev-image img {
+    width: 300px;
+    height: 260px;
+    margin: auto;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.dev-image {
+    transition: all 0.1s ease-in-out;
+}
+
+.dev-image:hover {
+    transform: scale(1.12);
+}
+
+/* social media links */
+/* Social Media Icons */
+.social-media-list {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.social-media-list li a {
+    color: #fff;
+    z-index: 2;
+    position: relative;
+}
+
+.social-media-list li {
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 10px 3px;
+    line-height: 42px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(113, 20, 90);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 41px;
+    height: 41px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+    background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+    opacity: 1;
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social-media-list li:hover a {
+    color: #000;
+}
+
+#twitter:hover a {
+    color: rgb(37, 186, 245);
+}
+
+#instagram:hover a {
+    color: rgb(150, 47, 191);
+}
+
+#linkedin:hover a {
+    color: rgb(0, 85, 119);
+}
+
+#facebook:hover a {
+    color: rgb(57, 127, 219);
+}
+
+#youtube:hover a {
+    color: rgb(204, 19, 19);
+}
+
+
+
+/* developer info section ends here */

@@ -1,0 +1,95 @@
+/* footer section begins here */
+#footer-box {
+    display: flex;
+    background-color: #131d3b;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* college datails section begins here */
+.col-det {
+    width: 250px;
+    padding: 5%;
+    text-align: center;
+}
+
+.col-det-box p {
+    padding: 2%;
+}
+
+/* college datails section ends here */
+
+/* useful links section begins here */
+.u-links {
+    margin-top: 1%;
+    padding-left: 3%;
+    padding-right: 5%;
+    margin-left: 2%;
+}
+
+.ul-lists li {
+    padding-top: 23%;
+}
+
+.ul-lists li :hover {
+    color: rgb(255, 81, 0);
+}
+
+.ul-lists li,
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.map {
+    margin-left: 6%;
+}
+
+.map-body {
+    color: white;
+}
+
+.footer-media {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    margin-top: 4%;
+}
+
+.footer-media li {
+    margin: 4%;
+    list-style: none;
+}
+
+/* useful links section ends here */
+.endcredits {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #131d3b;
+    color: white;
+    justify-content: space-around;
+    padding-bottom: 1%;
+    padding-top: 3%;
+}
+
+.ec-right {
+    font-size: 14px;
+}
+
+#facebook:hover a {
+    color: rgb(57, 127, 219);
+}
+
+#youtube:hover a {
+    color: rgb(204, 19, 19);
+}
+
+#twitter:hover a {
+    color: rgb(37, 186, 245);
+}
+
+#instagram:hover a {
+    color: rgb(150, 47, 191);
+}
