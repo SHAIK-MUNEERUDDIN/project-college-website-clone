@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRITS | Mallareddy Institute Of Technology And Science</title>
+    <link rel="icon" type="image/x-icon" href="IMAGES/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+    <script src="../assets/JS/jquerry.js"></script>
+    <link rel="stylesheet" href="../assets/CSS/Nav.css">
+    <link rel="stylesheet" href="../assets/CSS/Services.css">
+    <link rel="stylesheet" href="../assets/CSS/Footer.css">
+    <!-- <link rel="stylesheet" href="/CSS/Responsive.css"> -->
+    <!-- <script src="../assets/JS/main.js"></script> -->
+    <script>
+        $(function () {
+            $("#footer-placeholder").load("../Footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+
+    <div class="services-container">
+        <div class="service-box student-services">
+            <i class="fa fa-graduation-cap"></i>
+            <h3>Student Services</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec nibh odio. Aenean sit amet luctus quam.
+                Vivamus vel metus vel nisl vulputate bibendum id ut nisl.</p>
+            <a href="#">Learn More <i class="fa fa-arrow-right"></i></a>
+        </div>
+        <div class="service-box staff-login">
+            <i class="fa fa-lock"></i>
+            <h3>Staff Login</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec nibh odio. Aenean sit amet luctus quam.
+                Vivamus vel metus vel nisl vulputate bibendum id ut nisl.</p>
+            <a href="#">Login <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+
+
+
+    <!--Footer section here-->
+    <footer id="footer-placeholder">
+
+    </footer>
+
+    <script>
+        // the below script is used to stick the nav bar on top
+        $(document).ready(function () {
+            // Load nav.html file into the navbar element
+            $("#nav-placeholder").load("../nav.html", function () {
+                // This code will execute after nav.html is loaded
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+
+                /* Function to stick the nav bar */
+                function myFunction() {
+                    if (window.pageYOffset > sticky) {
+                        navbar.classList.add("sticky")
+                    }
+                    else {
+                        navbar.classList.remove("sticky");
+                    }
+                }
+
+                // Call myFunction() to initialize the navbar
+                myFunction();
+
+                // Attach the onscroll event to the window
+                window.onscroll = function () { myFunction() };
+            });
+        });
+    </script>
+</body>
+
+
+</html>
