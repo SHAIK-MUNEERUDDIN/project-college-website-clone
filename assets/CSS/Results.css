@@ -1,0 +1,78 @@
+/* table section styling begins here */
+.container {
+    height: 520px;
+    width: 100%;
+    display: flex;
+    opacity: 1;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+.item {
+    display: flex;
+
+
+}
+
+#submitbtn {
+    display: flex;
+}
+
+#invisible {
+    position: absolute;
+    display: flex;
+    padding-top: px;
+    width: 100%;
+    z-index: -1;
+}
+
+#invisible img {
+    width: 100%;
+    height: 520px;
+    opacity: 0.3;
+}
+
+.container::after {
+    content: "PLEASE ENTER STUDENT DETAILS TO CHECK YOUR RESULTS";
+
+    /* justify-content: center;
+            align-items: center; */
+}
+
+/* result section begins here */
+#results-container {
+    background-color: #d5d5b7;
+    display: flex;
+    height: 100%;
+}
+
+#results-box {
+    margin: 50px auto 200px auto;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 14px;
+}
+
+th {
+    background-color: #4472c4;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+.col-1 {
+    background-color: #aed6f1;
+}
+
+.col-2 {
+    background-color: #d6eaf8;
+}
+
+.info-table {
+    margin-bottom: 20px;
+}
