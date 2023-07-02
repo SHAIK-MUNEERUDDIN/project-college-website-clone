@@ -99,10 +99,10 @@
           color: #fde428;
       }
 
-      nav ul li a:hover i {
+      /* nav ul li a:hover i {
           color: rgb(255, 81, 0);
           transition: all 0.5s ease 0s;
-      }
+      } */
 
       nav ul li a i {
           padding-right: 10px;
@@ -172,6 +172,7 @@
       .dropdown {
           position: relative;
           display: inline-block;
+          width: 181px;
       }
 
       .dropdown-content {
