@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRITS | Mallareddy Institute Of Technology And Science</title>
+    <link rel="icon" type="image/x-icon" href="IMAGES/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+    <script src="../assets/JS/jquerry.js"></script>
+    <link rel="stylesheet" href="../assets/CSS/Nav.css">
+    <link rel="stylesheet" href="../assets/CSS/Footer.css">
+    <link rel="stylesheet" href="../assets/CSS/Results.css">
+    <link rel="stylesheet" href="../assets/CSS/Responsive.css">
+    <script src="../assets/JS/main.js"></script>
+    <script>
+        $(function () {
+            $("#footer-placeholder").load("../Footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <!-- table begins from here -->
+
+    <div class="container">
+        <div id="invisible"><img class="bgimage" src="../assets/IMAGES/clg.jpg" alt="image here"></div>
+
+
+        <form class="item">
+            <div class="opt" id="opt1">
+                <label for="branch">Branch:</label>
+                <select name="branch" required>
+                    <option value="">Select</option>
+                    <option value="cse" selected>CSE</option>
+                    <option value="eee" disabled>EEE</option>
+                    <option value="ece" disabled>ECE</option>
+                    <option value="civil" disabled>CIVIL</option>
+                </select>
+            </div>
+            <div class="opt" id="opt2">
+                <label for="YEAR">Year:</label>
+                <select name="year" required>
+                    <option value="">Select</option>
+                    <option value="I year" disabled>I Year</option>
+                    <option value="II year" disabled>II Year</option>
+                    <option value="III year">III Year</option>
+                    <option value="IV year" disabled>IV Year</option>
+                </select>
+            </div>
+            <div class="opt" id="opt3">
+                <label for="SECTION">Section:</label>
+                <select name="Section" required>
+                    <option value="">Select</option>
+                    <option value="section-a" disabled>CSE-A</option>
+                    <option value="section-b" disabled>CSE-B</option>
+                    <option value="section-c">CSE-C</option>
+                    <option value="it" disabled>IT</option>
+                    <option value="cse(ds)" disabled>CSE(DS)</option>
+                    <option value="cse(aiml)" disabled>CSE(AIML)</option>
+                    <option value="cse(cs)" disabled>CSE(CS)</option>
+                    <option value="cse(iot)" disabled>CSE(IOT)</option>
+                    <option value="cse(nw)" disabled>CSE(NW)</option>
+
+                </select>
+            </div>
+            <div class="opt" id="opt4">
+                <label for="roll number">Enter HallTicket No:</label>
+                <input id="hallticket-input" type="text" name="Roll number" placeholder="21S15A0512" required>
+            </div>
+            <button id=submitbtn type="submit">Submit</button>
+        </form>
+    </div>
+
+
+    <div id="results-container">
+
+    </div>
+
+
+    <!--Footer section here-->
+    <footer id="footer-placeholder">
+
+    </footer>
+    <script src="../assets/JS/app.js"></script>
+</body>
+
+</html>
