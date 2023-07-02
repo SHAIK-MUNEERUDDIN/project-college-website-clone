@@ -44,6 +44,7 @@
     background-color: #d5d5b7;
     display: flex;
     height: 100%;
+    margin-top: -5px;
 }
 
 #results-box {

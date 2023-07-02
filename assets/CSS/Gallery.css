@@ -65,7 +65,7 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-auto-rows: 8px;
     margin: 5% 0% 5% 0%;
-    height: 1500px;
+    height: 100%;
 }
 
 .gallery img {
@@ -104,6 +104,10 @@ body {
 @media (max-width: 400px) {
     .gallery {
         grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    }
+
+    .gallery .gallery-item {
+        margin-left: 40px;
     }
 }
 
