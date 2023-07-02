@@ -4,6 +4,7 @@
           margin: 0px;
           padding: 0px;
           outline: none;
+          box-sizing: border-box;
       }
 
       .logo img {
@@ -34,7 +35,7 @@
       header {
           width: 100%;
           display: table;
-          background-color: #1A1B37;
+          background-color: #131c3b;
           z-index: 4;
       }
 
