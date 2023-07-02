@@ -1,3 +1,18 @@
+.dropdown {
+    background-color: rgb(255, 81, 0);
+    color: #fde428;
+    transition: all 0.5s ease 0s;
+}
+
+.dropdown>a {
+    color: #fde428;
+}
+
+.dropdown>a:hover {
+    color: #fde428;
+}
+
+
 .services-container {
     margin: 0 auto;
     margin-top: 50px;

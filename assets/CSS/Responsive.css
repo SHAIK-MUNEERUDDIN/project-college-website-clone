@@ -398,6 +398,17 @@
             #clients img {
                 height: 124px;
             } */
+
+            .services-box {
+                width: calc(100% - 30px);
+                padding: 0px;
+            }
+
+            .services-container {
+                height: 450px;
+                margin-bottom: 50px;
+                font-size: 14px;
+            }
         }
 
         @media only screen and (max-width: 480px) {
@@ -435,6 +446,20 @@
                 margin-left: 38%;
             }
 
+            /*result section styling*/
+            #results-box {
+                width: 330px;
+                margin: 50px auto 200px auto;
+            }
+
+            table {
+                font-size: 10px;
+            }
+
+            th,
+            td {
+                padding: 8px;
+            }
         }
 
         @media only screen and (max-width: 420px) {
