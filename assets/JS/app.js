@@ -36,7 +36,7 @@ submitBtn.addEventListener("click", () => {
         .then(data => {
             const result = data["3rd-year-cse"]["mid-2"][hallticketNumber];
             if (!result) {
-                resultContainer.innerHTML = `<h2 class="warning">No results found. Please enter a valid hall ticket number<h2>.`
+                resultContainer.innerHTML = `<h2 class="warning">No results found. Please enter a valid hall ticket number.<h2>`
                 return;
             }
 
