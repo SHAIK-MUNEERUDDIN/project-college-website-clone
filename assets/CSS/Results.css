@@ -77,3 +77,9 @@ td {
 .info-table {
     margin-bottom: 20px;
 }
+
+.warning {
+    color: red;
+    margin: 20px auto;
+    text-align: center;
+}

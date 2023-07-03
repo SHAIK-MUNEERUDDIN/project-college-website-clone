@@ -17,7 +17,7 @@ submitBtn.addEventListener("click", () => {
     const section = document.querySelector("select[name='Section']").value;
 
     if (!year || !branch || !section) {
-        alert("Please select year, branch and section");
+        alert("Please select Branch, Year and Section");
         return; // Stop execution if fields are not selected
     }
 
@@ -36,7 +36,7 @@ submitBtn.addEventListener("click", () => {
         .then(data => {
             const result = data["3rd-year-cse"]["mid-2"][hallticketNumber];
             if (!result) {
-                resultContainer.innerHTML = "No result found for the given hall ticket. Please enter a valid hall ticket number.";
+                resultContainer.innerHTML = `<h2 class="warning">No results found. Please enter a valid hall ticket number<h2>.`
                 return;
             }
 
